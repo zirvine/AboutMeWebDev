@@ -1,0 +1,59 @@
+.title {
+    position: relative;
+    right: 25%;
+    text-align: center;
+    line-height: 4px;
+}
+
+.close_space {
+    line-height: 2px;
+}
+
+li {
+    width: 50%;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }
+
+ .photo_right{
+    float: right;
+ }
+
+ .photo_center {
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ /* Style One */
+ body {
+     background-color: rgb(255, 250, 184);
+ }
+
+ /* Style Two */
+ .main_pages {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ /* Style Three */
+ .font_brown{
+     color: rgb(88, 17, 17)
+ }
+
+ /* Style Four */
+.italic {
+    font-style: italic;
+}
+
+ .center_res a {
+     text-align: center;
+ }
+
+ .main_div{
+     width:70vw;
+     margin-left:auto;
+     margin-right:auto;
+ }

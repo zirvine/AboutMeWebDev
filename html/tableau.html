@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<!-- Zach Irvine 12/3/2021 -->
+
+<!-- Ok, here's a thing you should change
+    
+    Change the styles to be associated to the divs, not the unordered lists, etc. -->
+
+<html lang="en">
+    <head>
+        <title>Zach Irvine - Tableau</title>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/x-icon" href="../home/images/letter_logo.jpg" />
+        <link href = "../styles/bootstyles.css" rel = "stylesheet" />
+    </head>
+    <body>
+        <div class = "menu">
+            <ul>
+                <li><a href = "../home/index.html">Home</a></li>
+                <li><a href = "aboutme.html">About Me</a></li>
+                <li><a href = "tableau.html">Tableau</a></li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div class = "navigation">
+            <h3>Directory</h3>
+            <ul>
+                <li><a href = "#profit_states">Profit of State Within the United States</a></li>
+                <li><a href = "#monthly_cali">California Monthly Profits since January 2013</a></li>
+                <li><a href = "#products_cali">Profit by Product Category in California</a></li>
+                <li><a href = "#forecast_cali">Forecasted Profits for California</a></li>
+            </ul>
+        </div>
+
+        <br>
+
+
+        <tableau>
+            <!-- Profit of 50 states -->
+            <h3 id = "profit_states">Profit of State Within the United States</h3>
+            <div class='tableauPlaceholder' id='viz1638807546948' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Profit of states within the United States ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates2&#47;Sheet2&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='ProfitsinStates2&#47;Sheet2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates2&#47;Sheet2&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>       
+
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1638807546948');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+
+            <p>Most states are profitable across the country, with some states having an overall loss, such as Texas, Ohio, and Pennsylvania. California is the most profitable state in the United States, followed by New York and Washington. </p>
+            <br>
+
+            <!-- California Montly Profits -->
+            <h3 id = "monthly_cali">California Monthly Profits since January 2013</h3>
+            <div class='tableauPlaceholder' id='viz1638807160171' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='California Monthly profits since January 2013 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates_16388071154310&#47;Sheet1&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                    <param name='name' value='ProfitsinStates_16388071154310&#47;Sheet1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates_16388071154310&#47;Sheet1&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>        
+
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1638807160171');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+
+            <p>California, the highest-profit state, has gradually increased in profits in that area, showing fluxuation, but overall growth in profits.</p>
+            <br>
+
+            <!-- Profit by Product Category in California -->
+            <h3 id = "products_cali">Profit by Product Category in California</h3>
+            <div class='tableauPlaceholder' id='viz1638808250332' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Profit by Product Category in California ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates3&#47;Sheet3&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='ProfitsinStates3&#47;Sheet3' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates3&#47;Sheet3&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1638808250332');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+
+            <p>California has three product categories: Furniture, Office Supplies, and Technology. Office Supplies boasts the highest profit, followed by Technology, and Furniture comes in last.</p>
+            <br>
+            
+            <!-- Forecasted Profits for California -->
+            <h3 id = "forecast_cali">Forecasted Profits for California</h3>
+            <div class='tableauPlaceholder' id='viz1638809143080' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Sheet 4 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates4&#47;Sheet4&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='ProfitsinStates4&#47;Sheet4' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProfitsinStates4&#47;Sheet4&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1638809143080');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+
+            <p>This is a line chart showing the forecasted profit of California for one year in the future.</p>
+            <br>
+        </tableau>
+
+        <h3><a href="https://www.tableau.com/" target = "_blank">Tableau Website</a></h3>
+
+        <div class = "footer">
+            <h3 id = "footer">Copyright &copy; Zach Irvine 2021</h3>
+        </div>
+    </body>
+</html>
